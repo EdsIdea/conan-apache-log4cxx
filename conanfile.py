@@ -9,7 +9,7 @@ class Apachelog4cxxConan(ConanFile):
     license = "Apache-2.0"
     url = "https://github.com/mkovalchik/conan-apache-log4cxx"
     settings = "os", "compiler", "build_type", "arch"
-    requires = "apache-apr/1.5.2@mkovalchik/stable"
+    requires = "apache-apr/1.5.2@ebclark2/testing"
     options = {
         "enable-wchar_t" : ["yes", "no"],
         "enable-unichar" : ["yes", "no"],
